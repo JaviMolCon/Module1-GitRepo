@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(183, 201, 242);
+  padding: 0.8rem;
+  padding-left: 2rem;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  font-family: "Caveat";
+  font-weight: 700;
+}
+
+.nav-right {
+  width: 30%;
+  padding-right: 3rem;
+}
+
+.nav-right a:hover {
+  color: rgb(251, 136, 180);
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  background-color: rgb(183, 201, 242);
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  background-image: url(https://www.miltonandking.com/wp-content/uploads/2019/02/Wallpaper-Kemra-PinkTiles-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+}
+
+header h1 {
+  font-family: "Caveat";
+  font-size: 60px;
+}
+header p {
+  font-family: "Kalam", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-weight: 500;
+}
+
+#duck {
+  display: flex;
+  justify-content: space-between;
+  gap: 25%;
+  padding: 2rem 10rem;
+  background-color: rgba(235, 230, 161, 0.7);
+}
+
+/* #duck img {
+  padding: 2rem;
+} */
+
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 3rem; */
+}
+
+.text h2 {
+  font-family: "Caveat";
+  padding-bottom: 2rem;
+}
+.text p {
+  max-width: 65%;
+}
+
+.text button {
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+  background-color: rgb(183, 201, 242);
+  border: none;
+}
+
+#emergency {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 15rem;
+  background-color: rgba(234, 231, 202, 0.7);
+}
+
+#emergency h2 {
+  padding-bottom: 2rem;
+  font-family: "Caveat";
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+.grid-item > img {
+  object-fit: cover;
+}
+
+footer {
+  background-color: rgba(235, 230, 161, 0.7);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+footer form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+footer form input {
+  margin: 1rem;
+  color: white;
+  background-color: rgb(241, 178, 202);
+  border: none;
+}
+
+footer textarea {
+  color: white;
+  background-color: rgb(240, 188, 208);
+}
+
+footer form button {
+  margin-top: 1rem;
+  padding: 1rem 4rem;
+  background-color: rgb(183, 201, 242);
+  border: none;
+}
+
+footer h2 {
+  padding-top: 2rem;
+  font-family: "Caveat";
+}
