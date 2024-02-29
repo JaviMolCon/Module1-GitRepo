@@ -102,14 +102,14 @@ header p {
   padding-bottom: 2rem;
 }
 
-.text button {
+.button {
   margin-top: 1rem;
   padding: 1rem 4rem;
   background-color: rgb(183, 201, 242);
   font-weight: 600;
   border: none;
 }
-.text button:hover {
+.button:hover {
   color: #fb88b4;
   border-color: #fb88b4;
 }
@@ -167,9 +167,9 @@ header p {
 }
 .grid-item > img {
   object-fit: cover;
-  -webkit-transition-property: all;
-  -webkit-transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
 }
 
 .grid-item > img:hover {
